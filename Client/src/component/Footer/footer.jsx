@@ -24,7 +24,7 @@ export default function footer() {
           </div>
           <div className="flex gap-4">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/mollenmi"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-900 transition-colors"
@@ -53,7 +53,7 @@ export default function footer() {
           </div>
         </div>
         <div className="mt-8 text-center text-sm">
-          © {new Date().getFullYear()} Navneetkushwaha. All rights reserved. | Contact: navneetkushwaha64@gmail.com
+          © {new Date().getFullYear()} All rights reserved. | Contact: navneetkushwaha64@gmail.com
         </div>
       </div>
     </footer>

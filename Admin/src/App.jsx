@@ -1,8 +1,32 @@
-import { AdminDashboard } from "./components/AdminDashboard"
+import { useEffect, useState } from "react";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { AdminDashboard } from "./components/AdminDashboard";
+import Login from "/Users/mollenmist/Desktop/Navneet-_kushPortfolio/Admin/src/components/AdminDashboard.jsx"; // Create a Login component for admin authentication
 
 function App() {
-  return <AdminDashboard />
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+    if (token) {
+      setIsAuthenticated(true);
+    }
+  }, []);
+
+  return (
+    <Router>
+      <Routes>
+        {/* Admin Login Route */}
+        <Route path="/admin/login" element={<Login setIsAuthenticated={setIsAuthenticated} />} />
+        
+        {/* Admin Dashboard Route - Protected */}
+        <Route
+          path="/admin"
+          element={isAuthenticated ? <AdminDashboard /> : <Navigate to="/admin/login" />}
+        />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
-
+export default App;
