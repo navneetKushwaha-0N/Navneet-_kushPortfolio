@@ -100,13 +100,13 @@ export default function Dashboard() {
 
           {/* Social Links */}
           <div className="flex justify-center space-x-6 my-8">
-            <a href="#" className="text-white hover:text-[#80d0c7] transition duration-200 transform hover:scale-110">
+            <a href="https://www.linkedin.com/in/navneet--kushwaha/" className="text-white hover:text-[#80d0c7] transition duration-200 transform hover:scale-110">
               <FaLinkedin size={32} />
             </a>
             <a href="https://github.com/mollenmi" className="text-white hover:text-[#80d0c7] transition duration-200 transform hover:scale-110">
               <FaGithub size={32} />
             </a>
-            <a href="#" className="text-white hover:text-[#80d0c7] transition duration-200 transform hover:scale-110">
+            <a href="https://www.instagram.com/mollen_0_mist/" className="text-white hover:text-[#80d0c7] transition duration-200 transform hover:scale-110">
               <FaInstagram size={32} />
             </a>
           </div>
