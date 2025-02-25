@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import profilePic from "/Users/mollenmist/Desktop/Navneet-_kushPortfolio/Client/src/assets/public/Favicon.png"; // ✅ Corrected Image Path
+import profilePic from "/Users/mollenmist/Desktop/Navneet-_kushPortfolio/Client/src/public/Favicon.png"; // ✅ Corrected Image Path
 import SkillsChart from "../skillchart/SkillsChart"; // ✅ Import Skill Chart Component
 
 const AboutSection = () => {
