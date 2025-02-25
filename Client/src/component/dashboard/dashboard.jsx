@@ -103,7 +103,7 @@ export default function Dashboard() {
             <a href="#" className="text-white hover:text-[#80d0c7] transition duration-200 transform hover:scale-110">
               <FaLinkedin size={32} />
             </a>
-            <a href="#" className="text-white hover:text-[#80d0c7] transition duration-200 transform hover:scale-110">
+            <a href="https://github.com/mollenmi" className="text-white hover:text-[#80d0c7] transition duration-200 transform hover:scale-110">
               <FaGithub size={32} />
             </a>
             <a href="#" className="text-white hover:text-[#80d0c7] transition duration-200 transform hover:scale-110">
