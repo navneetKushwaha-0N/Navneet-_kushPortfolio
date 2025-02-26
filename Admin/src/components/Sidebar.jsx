@@ -1,4 +1,4 @@
-"use client"
+
 
 import { useState } from "react"
 import {
@@ -39,7 +39,7 @@ export function Sidebar({ setActiveComponent, isMinimized, toggleSidebar }) {
           <div
             className={`rounded-full overflow-hidden ${isMinimized ? "w-10 h-10" : "w-16 h-16"} transition-all duration-300`}
           >
-            <img src="https://github.com" alt="Profile" className="w-full h-full object-cover" />
+            <img src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D" alt="Profile" className="w-full h-full object-cover" />
           </div>
         </div>
         <nav className="mt-8">

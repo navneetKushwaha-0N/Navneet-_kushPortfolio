@@ -51,7 +51,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 text-center text-sm">
-          © {new Date().getFullYear()} All rights reserved. | Contact: navneetkushwaha64@gmail.com
+          © {new Date().getFullYear()} All rights reserved. | Mollen Mist
         </div>
       </div>
       

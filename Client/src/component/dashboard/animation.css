@@ -1,55 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300");
 
-@keyframes showup {
-  0% {
-    opacity: 0;
-  }
-  20% {
-    opacity: 1;
-  }
-  80% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes slidein {
-  0% {
-    margin-left: -800px;
-  }
-  20% {
-    margin-left: -800px;
-  }
-  35% {
-    margin-left: 0px;
-  }
-  100% {
-    margin-left: 0px;
-  }
-}
-
-@keyframes reveal {
-  0% {
-    opacity: 0;
-    width: 0px;
-  }
-  20% {
-    opacity: 1;
-    width: 0px;
-  }
-  30% {
-    width: 355px;
-  }
-  80% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    width: 355px;
-  }
-}
 
 .animate-showup {
   animation: showup 7s infinite;
@@ -63,3 +13,24 @@
   animation: slidein 7s infinite;
 }
 
+h1:hover, p:hover {
+  /* ... other styles */
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adjust values as needed */
+}
+
+/* In your animation.css file or within a <style> tag */
+
+/* ... (emoji, wrapper, body styles) */
+
+/* Transitions for h1 and p */
+h1, p {
+  transition: all 0.5s ease-in-out; /* 0.5s is equivalent to 500ms */
+}
+
+h1:hover, p:hover {
+  transform: scale(1.05);
+  color: #80d0c7;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Added text shadow */
+}
+
+/* ... (other styles) */

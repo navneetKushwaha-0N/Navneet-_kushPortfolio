@@ -1,4 +1,4 @@
-"use client"
+
 
 import { useState } from "react"
 import { FaUser, FaEnvelope, FaLock, FaEye, FaEyeSlash, FaUserPlus, FaUserMinus } from "react-icons/fa"

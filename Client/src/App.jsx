@@ -4,7 +4,7 @@ import AboutSection from "./component/aboutSection/AboutSection";
 import Dashboard from "./component/dashboard/dashboard";
 import ProjectShowcase from "./component/ProjShow/ProjectShowcases";
 import Footer from "./component/Footer/footer";
-import { AdminDashboard } from "/Users/mollenmist/Desktop/Navneet-_kushPortfolio/Admin/src/components/AdminDashboard.jsx"; // Import Admin Dashboard
+import { AdminDashboard } from  "../../Admin/src/components/AdminDashboard"; // Import Admin Dashboard
 
 function App() {
   return (

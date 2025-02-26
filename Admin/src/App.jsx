@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import { AdminDashboard } from "./components/AdminDashboard";
-import Login from "/Users/mollenmist/Desktop/Navneet-_kushPortfolio/Admin/src/components/AdminDashboard.jsx"; // Create a Login component for admin authentication
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);

@@ -1,4 +1,4 @@
-"use client"
+
 
 import { useState } from "react"
 import { Header } from "./Header"
@@ -18,7 +18,7 @@ export function AdminDashboard() {
   const [loading, setLoading] = useState(false)
   const [isLoggedIn, setIsLoggedIn] = useState(true) // Assume logged in for now
   const [isModalOpen, setIsModalOpen] = useState(false)
-  const [userProfile, setUserProfile] = useState("#") // Default profile pic
+  const [userProfile, setUserProfile] = useState("https://images.unsplash.com/photo-1511367461989-f85a21fda167?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D") // Default profile pic
 
   const handleComponentChange = (component) => {
     setActiveComponent(component)
